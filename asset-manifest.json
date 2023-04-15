@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io/TPFinalIngeniearia/static/css/main.073c9b0a.css",
-    "main.js": "/github.io/TPFinalIngeniearia/static/js/main.3eeb9b18.js",
-    "static/js/787.1167ab56.chunk.js": "/github.io/TPFinalIngeniearia/static/js/787.1167ab56.chunk.js",
-    "static/media/logo.svg": "/github.io/TPFinalIngeniearia/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/github.io/TPFinalIngeniearia/index.html",
-    "main.073c9b0a.css.map": "/github.io/TPFinalIngeniearia/static/css/main.073c9b0a.css.map",
-    "main.3eeb9b18.js.map": "/github.io/TPFinalIngeniearia/static/js/main.3eeb9b18.js.map",
-    "787.1167ab56.chunk.js.map": "/github.io/TPFinalIngeniearia/static/js/787.1167ab56.chunk.js.map"
+    "main.css": "/TPFinalIngeniearia/static/css/main.073c9b0a.css",
+    "main.js": "/TPFinalIngeniearia/static/js/main.d027621d.js",
+    "static/js/787.1167ab56.chunk.js": "/TPFinalIngeniearia/static/js/787.1167ab56.chunk.js",
+    "static/media/logo.svg": "/TPFinalIngeniearia/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TPFinalIngeniearia/index.html",
+    "main.073c9b0a.css.map": "/TPFinalIngeniearia/static/css/main.073c9b0a.css.map",
+    "main.d027621d.js.map": "/TPFinalIngeniearia/static/js/main.d027621d.js.map",
+    "787.1167ab56.chunk.js.map": "/TPFinalIngeniearia/static/js/787.1167ab56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.3eeb9b18.js"
+    "static/js/main.d027621d.js"
   ]
 }
