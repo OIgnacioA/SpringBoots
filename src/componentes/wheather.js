@@ -5,7 +5,7 @@ export default function MainInfo({ weather }) {
     <div className="ContenedorImagen">
       <div className="Ciudad">{weather?.location.name}</div>
       <div className="Temperatura">Tepertura Actual: {weather ? weather.current.temp_c : null}°</div>
-      <img src={`http:${weather?.current.condition.icon}`} width="128" alt="" />
+      <img src={`http:${weather?.current.condition.icon}`} width="100" alt="" />
       <div className="Imagen">
         <iframe
           title="mapa"
