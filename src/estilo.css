@@ -16,7 +16,7 @@
   font-family: Consolas, monospace;
   background-color: #389352;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px;
   padding: 20px;
   margin-right: 5%; 
   max-width: 100%; /* Agregamos un ancho máximo para adaptarse al ancho de la pantalla */
@@ -28,6 +28,15 @@
   justify-content: center;
   align-items: center;
   max-width: 100%; /* Agregamos un ancho máximo para adaptarse al ancho de la pantalla */
+}
+
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px; /* Ajusta el valor de acuerdo a tus necesidades */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
 }
 
 .inputs {
@@ -96,3 +105,22 @@ iframe {
   display: block;
   margin: 0 auto;
 }
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #269be4; /* Cambia el color del botón a azul claro */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 10rem;
+  height: 3rem;
+}
+
+button:hover {
+  background-color: #008B8B; /* Cambia el color del botón al hacer hover */
+}
+
