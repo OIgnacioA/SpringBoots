@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TPFinalIngeniearia/static/css/main.d3a844ee.css",
-    "main.js": "/TPFinalIngeniearia/static/js/main.11329612.js",
+    "main.js": "/TPFinalIngeniearia/static/js/main.5f46a69c.js",
     "index.html": "/TPFinalIngeniearia/index.html",
     "main.d3a844ee.css.map": "/TPFinalIngeniearia/static/css/main.d3a844ee.css.map",
-    "main.11329612.js.map": "/TPFinalIngeniearia/static/js/main.11329612.js.map"
+    "main.5f46a69c.js.map": "/TPFinalIngeniearia/static/js/main.5f46a69c.js.map"
   },
   "entrypoints": [
     "static/css/main.d3a844ee.css",
-    "static/js/main.11329612.js"
+    "static/js/main.5f46a69c.js"
   ]
 }
