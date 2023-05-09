@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Prueba Servidor ARBA</title>
+</head>
+<body>
+
+
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		input[type="text"] {
+			width: 300px;
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+		}
+		button {
+			background-color: #008CBA;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		button:hover {
+			background-color: #005f8c;
+		}
+	</style>
+</head>
+<body>
+    <center>
+	<h1>Prueba Servidor ARBA</h1>
+	
+	<form  action="RegistroDato" method="get">
+		<label>Ingrese los datos:</label>
+		<input type="text"  placeholder="Escriba aquí..."  name="datto" >
+		<!--<button type="submit">Guardar</button>-->
+		<input type="submit" value= "Guardar">
+	</form>
+
+<form action="Devolucion" method="get">
+    <input type="submit" value="Mostrar datos">
+</form>
+
+</center>
+
+</body>
+</html>
