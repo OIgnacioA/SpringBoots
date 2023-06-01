@@ -6,12 +6,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class Cliente {
 
+	@Value("${cliente.apellido}")
+	private String apellido;
+	@Value("${cliente.nombre}")
+	private String nombre;
+
 	public String getNombre() {
 		return nombre;
 	}
 
 	public void setNombre(String nombre) {
-		nombre = nombre;
+		this.nombre = nombre;
 	}
 
 	public String getApellido() {
@@ -19,10 +24,7 @@ public class Cliente {
 	}
 
 	public void setApellido(String apellido) {
-		apellido = apellido;
+		this.apellido = apellido;
 	}
-   @Value("${cliente.apellido}")
-	private String apellido;
-   @Value("${cliente.nombre}")
-	private String nombre;
+
 }
