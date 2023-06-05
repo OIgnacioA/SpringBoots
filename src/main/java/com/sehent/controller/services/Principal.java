@@ -1,7 +1,9 @@
-package com.example.demo.IIDD.app.controller.services;
+package com.sehent.controller.services;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.ArrayList;
@@ -10,16 +12,12 @@ import java.util.List;
 import org.springframework.stereotype.Component;
 
 
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-
 @Component("Principal")
 public class Principal implements IMaterials {
 
+
 	 BufferedWriter br = null; 
-     Writer swResultados = null;
+    Writer swResultados = null;
 	 BufferedReader reader = null;
 	 public String Path = "C:\\Users\\oscar.avendano\\Desktop\\experimento\\documento1.txt"; 
 	 public String Path2 = "C:\\Users\\oscar.avendano\\Desktop\\experimento\\documento2.txt"; 
@@ -28,8 +26,8 @@ public class Principal implements IMaterials {
 	
 	 
 	 String nombre = "";
-     String apellido = "";
-     String dni = "";
+    String apellido = "";
+    String dni = "";
 	 String resultado= "" ; 
 
 	 
@@ -61,11 +59,11 @@ public class Principal implements IMaterials {
 		
 		 try {
 			 Linea = reader.readLine();
-          } catch (IOException e) {
-                  
-           System.out.println("Error al cerrar el BufferedReader: " + e.getMessage());
-            
-          }
+         } catch (IOException e) {
+                 
+          System.out.println("Error al cerrar el BufferedReader: " + e.getMessage());
+           
+         }
 		
 		
 	}
@@ -94,7 +92,7 @@ public class Principal implements IMaterials {
 	            }
 
 	        return line;
-    }
+   }
 
 	
 	
@@ -138,5 +136,4 @@ public class Principal implements IMaterials {
 		
 		}
 	}
-
 }

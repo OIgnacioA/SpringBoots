@@ -5,7 +5,7 @@
 <title>Ingreso</title>
 </head>
 <body>
-	<div >no hay usuarios con ese Nomero</div>
+	<div ></div>
 
 	<table >
 		<thead>
@@ -20,7 +20,7 @@
         <li th:each="string : ${objeto}" th:text="${string}"></li>
     </ul>
 <form action="/procesar-dato" method="post">
-  <input type="text" name="dato" />
+  <input type="text" name="dato" placeholder= "buscar por primer numero de dni"/>
   <button type="submit">Enviar</button>
 </form>
 

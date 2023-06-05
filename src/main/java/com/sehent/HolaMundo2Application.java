@@ -1,17 +1,13 @@
-package com.example.demo.IIDD.app;
+package com.sehent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.example.demo.IIDD.app.controller.*;
-
 
 @SpringBootApplication
-public class HolaMundo1Application {
+public class HolaMundo2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HolaMundo1Application.class, args);
-		
-
+		SpringApplication.run(HolaMundo2Application.class, args);
 	}
 
 }
