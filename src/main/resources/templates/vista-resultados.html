@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Ingreso</title>
+</head>
+<body>
+	<div>no hay usuarios con ese Número</div>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>DNI</th>
+			</tr>
+		</thead>
+	</table>
+
+
+   <h2>Resultados:</h2>
+   <ul>
+      <li th:each="resultado : ${resultados}" th:text="${resultado}"></li>
+   </ul>
+</body>
+</html>
