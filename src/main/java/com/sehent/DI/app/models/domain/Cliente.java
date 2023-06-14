@@ -1,5 +1,6 @@
 package com.sehent.DI.app.models.domain;
 
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -8,6 +9,7 @@ public class Cliente {
 
 	@Value("${cliente.apellido}")
 	private String apellido;
+	
 	@Value("${cliente.nombre}")
 	private String nombre;
 

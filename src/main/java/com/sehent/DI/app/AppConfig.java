@@ -27,21 +27,26 @@ public class AppConfig {
 	public IServicio registrarMiServicioComplejo() {		
 		return new MiServiceComplejo();
 	}
+	
 
-	@Bean("itemsFactura")
-	public List<ItemFactura> registrarItems(){
-		
-		Producto producto1 = new Producto("Camara Sony", 100);
-		Producto producto2 = new Producto("Bicileta bianchi aro 26", 200);
-		
-		ItemFactura linea1 = new ItemFactura(producto1, 2);
-		ItemFactura linea2 = new ItemFactura(producto2, 4);
-		
-		return Arrays.asList(linea1,linea2);
-		
-	}
+	
+	@Bean("yerba")
+
+	public List <ItemFactura> reghistrarItems() {
+	Producto producto1 = new Producto("yerba mate", 100);
+
+	
+	ItemFactura linea1 = new ItemFactura(producto1, 2);
+
 	
 	
+	return Arrays.asList(linea1);
+	
+}
+
+
+
+
 	
 	
 }

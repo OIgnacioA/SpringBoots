@@ -1,45 +1,55 @@
 package com.sehent.DI.app.models.domain;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
+@ConfigurationProperties
 public class Factura {
-	
-	@Value("${factura.descripcion}")
-	private String descripcion;
-	
-	@Autowired
-	private Cliente cliente;
-	
-	@Autowired
-	private List<ItemFactura> items;
 
-	public String getDescripcion() {
-		return descripcion;
-	}
+    @Value("${factura.descripcion}")
+    private String descripcion;
 
-	public void setDescripcion(String descripcion) {
-		this.descripcion = descripcion;
-	}
+    @Autowired
+    private Cliente cliente;
 
-	public Cliente getCliente() {
-		return cliente;
-	}
+    @Autowired
+    @Qualifier("ItemFactura")
+    private List<ItemFactura> items;
 
-	public void setCliente(Cliente cliente) {
-		this.cliente = cliente;
-	}
+    
+    
+    
+    public String getDescripcion() {
+        return descripcion;
+    }
 
-	public List<ItemFactura> getItems() {
-		return items;
-	}
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 
-	public void setItems(List<ItemFactura> items) {
-		this.items = items;
-	}
+    
+    
+    public Cliente getCliente() {
+        return cliente;
+    }
 
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    
+    
+    
+    public List<ItemFactura> getItems() {
+        return items;
+    }
+
+    public void setItems(List<ItemFactura> items) {
+        this.items = items;
+    }
 }
