@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Ingreso</title>
+</head>
+<body>
+	<div ></div>
+
+	<table >
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>DNI</th>
+			</tr>
+		</thead>
+	</table>
+   <ul>
+        <li th:each="string : ${objeto}" th:text="${string}"></li>
+    </ul>
+<form action="/procesar-dato" method="post">
+  <input type="text" name="dato" placeholder= "buscar por primer numero de dni"/>
+  <button type="submit">Enviar</button>
+</form>
+
+
+</body>
+</html>

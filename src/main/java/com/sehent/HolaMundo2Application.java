@@ -1,13 +1,13 @@
-package com.sehent.DI.app;
+package com.sehent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootWeb1Application {
+public class HolaMundo2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootWeb1Application.class, args);
+		SpringApplication.run(HolaMundo2Application.class, args);
 	}
 
 }

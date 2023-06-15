@@ -1,10 +1,10 @@
-package com.sehent.DI.app;
+package com.sehent;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootWeb1ApplicationTests {
+class HolaMundo2ApplicationTests {
 
 	@Test
 	void contextLoads() {
