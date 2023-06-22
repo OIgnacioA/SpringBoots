@@ -1,14 +1,23 @@
 package com.sehent.form.models.domain;
 
-import jakarta.validation.constraints.NotEmpty;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
+
+
 
 public class Usuario {
 
+	private String Identificador ; 
+	
 	@NotEmpty
+	@Size(min = 3, max = 8)
 	private String username;
+	
 	@NotEmpty
 	private String password;
 	@NotEmpty
+	@Email
 	private String email;
 	@NotEmpty
 	private String Nombre;
@@ -46,6 +55,11 @@ public class Usuario {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	public String getIdentificador() {
+		return Identificador;
+	}
+	public void setIdentificador(String identificador) {
+		Identificador = identificador;
+	}
 
 }
