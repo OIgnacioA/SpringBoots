@@ -1,10 +1,10 @@
-package com.sehent.form;
+package com.app.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootForm1ApplicationTests {
+class CrudSpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {
